@@ -10,5 +10,11 @@ int main() {
      * Or like this (multiline comment)
      */
 
+    const std::string header_name = "iostream";
+
+    std::cout << "The next thing we have is a header file called " << header_name << "\n";
+
+    std::cout << "Then we have our main() function which is automatically invoked by the runtime." << "\n";
+
     return 0;
 }
