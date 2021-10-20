@@ -24,6 +24,12 @@ int main() {
     std::cout << "cout represents the user's screen. So, if we want to print something onto the screen we need to insert that into cout which is done with the insertion operator (<<)." << "\n";
 
     std::cout << "In one " << "statement " << "we can write " << "multiple " << "insertion operators." << "\n";
+    std::cout << "Using multiple insertion operators in one statement is called cascading of operators." << "\n";
+
+    std::cout << "If we print code without an newline operator or std::endl we will not get to a newline - which is not we want. endl - called a manipulator - can manipulate/affect the output. It also flushes the output buffer, which ensures the string is immediately printing on the screen.\n";
+
+
+    std::flush(std::cout);
 
     return 0;
 }
