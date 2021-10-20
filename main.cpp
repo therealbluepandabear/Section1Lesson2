@@ -2,6 +2,8 @@
 
 using namespace std; // We can open namespaces like so, in this case we are opening the namespace called std.
 
+void func_m();
+
 int main() {
     std::cout << "In Visual Studio, a C++ program consists of source files (including header files and .cpp files) which are organized in a project which is stored inside a solution" << "\n";
 
@@ -32,6 +34,8 @@ int main() {
 
     std::cout << "When programming, if we encounter a syntax error, we will get a red underline or an error list.\n";
 
+    func_m();
+
     std::flush(std::cout);
 
     return 0;
@@ -39,4 +43,13 @@ int main() {
 
 namespace MyNamespace {
     // A namespace is a way to wrap a type so that they are not visible outside.
+    void func() {
+
+    }
+}
+
+// Instead of opening namespaces, we can access them using their full qualified name like so:
+
+void func_m() {
+    MyNamespace::func();
 }
