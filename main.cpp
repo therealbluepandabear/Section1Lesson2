@@ -16,5 +16,12 @@ int main() {
 
     std::cout << "Then we have our main() function which is automatically invoked by the runtime." << "\n";
 
+    std::cout << "We can print a message on a screen using the object called 'cout' which is inside the " << header_name << " header file." << "\n";
+    std::cout << "Although it's not directly accessible as it's contained inside a namespace called std." << "\n";
+
     return 0;
+}
+
+namespace MyNamespace {
+    // A namespace is a way to wrap a type so that they are not visible outside.
 }
