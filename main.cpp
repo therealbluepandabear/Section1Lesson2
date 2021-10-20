@@ -28,6 +28,9 @@ int main() {
 
     std::cout << "If we print code without an newline operator or std::endl we will not get to a newline - which is not we want. endl - called a manipulator - can manipulate/affect the output. It also flushes the output buffer, which ensures the string is immediately printing on the screen.\n";
 
+    std::cout << "At the end of main we also return 0, this value will go to the operating system.\n";
+
+    std::cout << "When programming, if we encounter a syntax error, we will get a red underline or an error list.\n";
 
     std::flush(std::cout);
 
