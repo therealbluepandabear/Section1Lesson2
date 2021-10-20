@@ -21,6 +21,10 @@ int main() {
     std::cout << "We can print a message on a screen using the object called 'cout' which is inside the " << header_name << " header file." << "\n";
     std::cout << "Although it's not directly accessible as it's contained inside a namespace called std." << "\n";
 
+    std::cout << "cout represents the user's screen. So, if we want to print something onto the screen we need to insert that into cout which is done with the insertion operator (<<)." << "\n";
+
+    std::cout << "In one " << "statement " << "we can write " << "multiple " << "insertion operators." << "\n";
+
     return 0;
 }
 
